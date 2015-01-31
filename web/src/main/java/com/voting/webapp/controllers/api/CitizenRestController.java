@@ -11,6 +11,7 @@ import java.util.List;
  * Rest Controller for operations related to citizens
  */
 @RestController
+//@RequestMapping(value = "/api/")
 public class CitizenRestController {
 
     @Autowired

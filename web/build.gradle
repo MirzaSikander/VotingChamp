@@ -17,11 +17,18 @@ dependencies {
     compile 'org.springframework:spring-webmvc:4.1.4.RELEASE'
     compile 'org.springframework:spring-web:4.1.4.RELEASE'
     compile 'org.springframework:spring-orm:4.1.4.RELEASE'
+    // for OAuth 2.0
+    compile 'org.springframework.security.oauth:spring-security-oauth2:2.0.5.RELEASE'
+    // for OAuth 1.0a
+    compile 'org.springframework.security.oauth:spring-security-oauth:2.0.5.RELEASE'
+
+    compile 'org.springframework.security:spring-security-config:3.2.5.RELEASE'
 
     compile 'org.springframework.data:spring-data-jpa:1.7.2.RELEASE'
     compile 'ch.qos.logback:logback-classic:1.1.2'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
     compile 'org.hibernate:hibernate-entitymanager:4.3.8.Final'
+    compile 'com.zaxxer:HikariCP:2.3.0'
     compile 'mysql:mysql-connector-java:5.1.34'
 
     //include in compile only, exclude in the war
